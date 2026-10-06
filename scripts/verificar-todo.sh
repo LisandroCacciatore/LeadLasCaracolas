@@ -52,10 +52,23 @@ paso() {                      # paso "nombre" comando...
   fi
 }
 
-# validar-spec con --dist sólo si el dist está construido: agrega el chequeo de
-# la home publicada, que sin dist no aplica.
-SPEC_ARGS=()
-[[ -d dist ]] && SPEC_ARGS=(--dist)
+# El preview se rearma ACÁ, antes del gate 2, y siempre.
+#
+# `validar-spec --dist` valida el dist CONSTRUIDO, y el dist no lo arma este script:
+# si quedó el de una corrida anterior, el gate mide contenido que ya no es el actual y
+# pasa o falla por un motivo falso. Pasó de verdad: el gate 2 quedó en rojo por un dist
+# viejo cuyo hub apuntaba a una URL que el config ya había cambiado.
+echo
+echo "──────────────────────────────────────────────────────────────────"
+echo "  0/6  armar el preview (dist/)"
+echo "──────────────────────────────────────────────────────────────────"
+if "$PY" scripts/armar-dist.py; then
+  RESUMEN+=("OK    0/6  armar el preview")
+else
+  RESUMEN+=("FALLA 0/6  armar el preview")
+  fallos=$((fallos + 1))
+fi
+SPEC_ARGS=(--dist)
 
 # ─────────── Fase 1 · diagnóstico ───────────
 paso "1/6  construir el entregable"        bash scripts/generar.sh
