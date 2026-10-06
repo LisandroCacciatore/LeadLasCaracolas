@@ -298,8 +298,28 @@ def main() -> int:
     for pieza in lista:
         if not (DIST / pieza["slug"] / ARCHIVO).exists():
             errores.append(f"falta {pieza['slug']}/{ARCHIVO}")
-    if (DIST / "sitio").is_dir() and not (DIST / "sitio" / "assets" / "img").is_dir():
-        errores.append("el sitio quedó sin sus assets")
+    # El sitio puede organizar sus assets como quiera: lo que importa es que TODO lo
+    # que las páginas referencian exista en dist. Chequear un directorio con nombre
+    # fijo (`assets/img/`) daba falso negativo contra cualquier otra organización — un
+    # sitio con `assets/*.svg` se reportaba como «sin sus assets» teniéndolos todos, y
+    # eso bloqueaba la publicación de un sitio sano.
+    if (DIST / "sitio").is_dir():
+        sitio = DIST / "sitio"
+        refs = set()
+        for f in list(sitio.rglob("*.html")) + list(sitio.rglob("*.css")):
+            t = f.read_text(encoding="utf-8", errors="replace")
+            for m in re.findall(r'(?:src|href)="([^"#?:]+)"', t, re.I):
+                refs.add(m.lstrip("/"))
+            for m in re.findall(r"url\(\s*['\"]?([^'\")?#]+)", t, re.I):
+                refs.add(m.lstrip("/"))
+        externos = ("http://", "https://", "//", "mailto:", "tel:", "data:", "javascript:")
+        faltan = sorted(r for r in refs
+                        if r and not r.startswith(externos) and not (sitio / r).exists())
+        if faltan:
+            errores.append(f"el sitio referencia {len(faltan)} archivo(s) que no están en "
+                           f"dist: {', '.join(faltan[:5])}")
+        else:
+            print(f"  ✓ los {len(refs)} recursos que referencia el sitio están todos en dist/")
 
     print("-" * 34)
     total = sum(1 for f in DIST.rglob("*") if f.is_file())

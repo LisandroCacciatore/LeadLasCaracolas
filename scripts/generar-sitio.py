@@ -59,6 +59,7 @@ WA_MIN = 8
 OG_MIN = 6
 H2_MIN = 5
 ESPERA_DSH = 1500
+MARCADOR = "PENDIENTE-DOMINIO"     # lo escribe el contrato cuando el dominio no está definido
 
 
 # ─────────────────────────── lectura de la config ───────────────────────────
@@ -597,6 +598,47 @@ def cmd_enchufar(args) -> int:
     return 0
 
 
+# ─────────────────────────── fijar el dominio ───────────────────────────
+
+def cmd_dominio(args) -> int:
+    """Reemplaza el marcador PENDIENTE-DOMINIO por la URL real del sitio.
+
+    Es el paso que cierra C03. Existe como comando y no como edición a mano porque el
+    marcador aparece en cinco lugares distintos —canónica, og:url, tres nodos del
+    JSON-LD, robots.txt y sitemap.xml— y una edición a mano deja alguno atrás.
+    """
+    if not args.url:
+        print("falta --url"); return 2
+    url = args.url if args.url.endswith("/") else args.url + "/"
+    cfg = leer_config()
+    cfg.setdefault("sitio", {})["canonical"] = url
+    if not (cfg.get("sitio") or {}).get("_canonicalNota"):
+        cfg["sitio"]["_canonicalNota"] = "fijado por generar-sitio.py dominio"
+    CONFIG.write_text(json.dumps(cfg, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+    tocados = []
+    for nombre in ("index.html", "robots.txt", "sitemap.xml"):
+        f = SITIO / nombre
+        if not f.exists():
+            continue
+        t = f.read_text(encoding="utf-8")
+        n = t.count(MARCADOR)
+        if not n:
+            continue
+        t = t.replace(MARCADOR, url)
+        # El marcador se usaba pegado a "/sitemap.xml": con la barra final del dominio
+        # quedaba una barra doble. Se limpia acá, no en el sitio ya publicado.
+        t = t.replace("//sitemap.xml", "/sitemap.xml")
+        f.write_text(t, encoding="utf-8")
+        tocados.append(f"{nombre} ({n})")
+
+    print(f"dominio: {url}")
+    print(f"  config.sitio.canonical actualizado")
+    print(f"  marcador reemplazado en: {', '.join(tocados) if tocados else 'ningún archivo'}")
+    print(f"\nAhora:  python scripts/generar-sitio.py verificar")
+    return 0
+
+
 # ─────────────────────────── publicar ───────────────────────────
 
 def cmd_publicar(args) -> int:
@@ -630,11 +672,12 @@ def main() -> int:
     for nombre, fn, ayuda in (("contrato", cmd_contrato, "deriva y muestra el contrato del sitio"),
                               ("generar", cmd_generar, "invoca a DSH con el contrato"),
                               ("verificar", cmd_verificar, "corre los criterios sobre 02-sitio/"),
+                              ("dominio", cmd_dominio, "fija la URL canónica y reemplaza el marcador"),
                               ("enchufar", cmd_enchufar, "escribe la URL en config.modelo.url"),
                               ("publicar", cmd_publicar, "arma dist, commitea y guía el push")):
         s = sub.add_parser(nombre, help=ayuda)
         s.add_argument("--dry-run", action="store_true")
-        if nombre == "enchufar":
+        if nombre in ("enchufar", "dominio"):
             s.add_argument("--url", default="")
         s.set_defaults(func=fn)
     a = ap.parse_args()

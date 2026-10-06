@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 
 # El dominio definitivo todavia no esta definido ni comprado.
-# Cuando se publique, reemplazar PENDIENTE-DOMINIO por el dominio real.
-Sitemap: PENDIENTE-DOMINIO/sitemap.xml
+# Cuando se publique, reemplazar https://lisandrocacciatore.github.io/LeadLasCaracolas/sitio/ por el dominio real.
+Sitemap: https://lisandrocacciatore.github.io/LeadLasCaracolas/sitio/sitemap.xml

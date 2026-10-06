@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- El dominio definitivo todavia no esta definido ni comprado: PENDIENTE-DOMINIO -->
+<!-- El dominio definitivo todavia no esta definido ni comprado: https://lisandrocacciatore.github.io/LeadLasCaracolas/sitio/ -->
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>PENDIENTE-DOMINIO</loc>
+    <loc>https://lisandrocacciatore.github.io/LeadLasCaracolas/sitio/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>

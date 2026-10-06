@@ -18,7 +18,7 @@
     "horarios": "Abierto hasta las 20:45",
     "horariosFuente": "ficha de Google Maps, leída el 6/10/2026 — sólo el cierre: el horario de apertura no se pudo medir",
     "mapa": "https://goo.gl/maps/9EvYzcmyv2mSmsZ67",
-    "canonical": "",
+    "canonical": "https://lisandrocacciatore.github.io/LeadLasCaracolas/sitio/",
     "_canonicalNota": "vacío a propósito: el negocio todavía no tiene dominio. El bot NO debe inventarlo — un dominio adivinado del nombre puede ser el de otra empresa (lascaracolas.com.ar es de un complejo de departamentos). Se completa cuando el dominio esté decidido.",
     "dominioPrevisto": "lascaracolasrosario.com.ar — verificado libre en el NIC el 6/10/2026; todavía no comprado",
     "redes": {
@@ -92,7 +92,7 @@
       "titulo": "Los 57.000 seguidores no son 57.000 clientes",
       "tituloCorto": "La audiencia que no llega",
       "descripcion": "Medí las últimas 12 publicaciones de tu Instagram, entre el 19 de septiembre y el 5 de octubre: una cada 34 horas. Juntaron entre 15 y 229 me gusta, con una mediana de 107. Siete de las doce tienen un comentario o ninguno. La del 40 % OFF del Día de la Madre juntó 48 me gusta y ningún comentario.",
-      "resumen": "Una publicación tuya la ve el 0,19 % de tus 56.918 seguidores.",
+      "resumen": "0,19 % de tus 56.918 seguidores ve cada publicación que subís.",
       "impacto": "El número grande mide audiencia acumulada, no audiencia viva. Lo que publicás hoy lo ve alrededor de una décima parte de lo que correspondería para una cuenta de ese tamaño, que es entre el 1 % y el 3 %. El problema no es que publiques poco —publicás el doble de seguido que el promedio— ni que publiques mal: es que el activo que creés que tenés no está donde creés.",
       "significa": "Publicás todos los días para 107 personas de un total de 56.918. Cada publicación rinde una décima parte de lo que debería.",
       "propongo": "Esto no se arregla con un sitio web, y no te vendo un sitio para resolverlo. Se cambia desde el contenido y desde dónde vive la audiencia, y merece una conversación aparte."
@@ -103,9 +103,9 @@
       "titulo": "La carta pesa 64,8 MB y vive en Google Drive",
       "tituloCorto": "La carta que nadie abre",
       "descripcion": "Los dos documentos con los que vendés son PDF alojados en Google Drive: la Carta Rotisería de octubre, de 30 páginas y 64,8 MB, y el Catálogo de frescos y rebozados, de 7 páginas y 3,4 MB. Los dos cuelgan de tu Linktree y son el paso obligado de cualquiera que quiera comprarte.",
-      "resumen": "Tu carta son 64,8 MB en un PDF de 30 páginas dentro de Google Drive.",
+      "resumen": "64,8 MB pesa tu carta: 30 páginas de PDF alojadas en Google Drive.",
       "impacto": "Tres consecuencias que se miden: 64,8 MB es más de un minuto de descarga en una conexión móvil común, así que quien entra con datos abandona o gasta su plan en un menú; Google no puede leer un PDF dentro de Drive, así que hoy nadie que busque una pescadería en Rosario encuentra tus precios; y como los archivos se llaman «OCTUBRE», hay que rehacerlos y volver a subirlos todos los meses, dejando el anterior público con su dirección intacta.",
-      "significa": "64,8 MB para ver un menú. Y Google no puede leer ni una línea de lo que vendés.",
+      "significa": "Un menú que hay que descargar entero para leerlo, y del que Google no puede leer ni una línea.",
       "propongo": "M2 — Tu carta como página: se abre al instante, tiene buscador y tus precios son texto que Google indexa. Se actualiza sin subir un PDF nuevo cada mes."
     },
     {
@@ -114,7 +114,7 @@
       "titulo": "Toda la demanda entra por canales que son de otros",
       "tituloCorto": "El negocio alquilado",
       "descripcion": "Tu Linktree tiene nueve enlaces propios: dos PDF en Google Drive, WhatsApp, dos tiendas de PedidosYa, el mapa, TikTok, Facebook e Instagram. En esa misma página aparecen avisos de Hulu, HelloFresh, ARMRA, Omnilux, Curology, Headspace, Babbel y once marcas más: son de la plataforma, no tuyos, y se muestran en la misma pantalla que tu carta.",
-      "resumen": "Tus clientes te compran a través de cuatro empresas que cobran o cobran peaje en algún punto.",
+      "resumen": "4 empresas —Meta, Google, PedidosYa y Linktree— están entre tu cliente y tu caja.",
       "impacto": "Instagram es de Meta, el menú es de Google, los pedidos pasan por PedidosYa y la página donde está tu carta es de Linktree —que además monetiza tu tráfico con publicidad ajena. Y no hay un solo lugar donde guardes el dato de quién te compró: ni un correo, ni una lista. Si mañana te limitan el alcance o sube la comisión, no tenés a quién avisarle directo.",
       "significa": "El pedido pasa por WhatsApp y por PedidosYa. El menú, por Drive. La vidriera, por Linktree. Nada de eso es tuyo.",
       "propongo": "M1 — Pedido directo desde tu propia página: el botón de WhatsApp al lado de la carta, y el dato del cliente queda en un lugar que es tuyo."
@@ -125,9 +125,9 @@
       "titulo": "El nombre ya está tomado y Google te pide el sitio",
       "tituloCorto": "El nombre ocupado",
       "descripcion": "Los dos dominios con tu nombre exacto son de otros: lascaracolas.com.ar es un complejo de departamentos en la costa, y lascaracolas.com es un sitio de periodismo feminista en México. Y en tu propia ficha de Google, en la sección «Agregar la información que falta», la primera línea dice «Agregar sitio web».",
-      "resumen": "Google sabe que existís y no tiene a dónde mandar a quien te busca por nombre.",
+      "resumen": "741 opiniones con 4,5 estrellas, y ni una página tuya que las cobre.",
       "impacto": "Tenés 741 opiniones con 4,5 estrellas y más de 109 fotos: un prestigio que costó años juntar. Pero una ficha de Google sin sitio no transfiere esa autoridad a ningún lado, y quien te busca por nombre aterriza en el complejo de departamentos o en el podcast. Verifiqué el registro: caracolasrosario.com.ar y lascaracolasrosario.com.ar están libres.",
-      "significa": "741 opiniones, 4,5 estrellas, y ni una página tuya que las cobre. El nombre está ocupado en los dos dominios exactos.",
+      "significa": "Ese prestigio no transfiere autoridad a ningún lado, y el nombre exacto está ocupado en los dos dominios.",
       "propongo": "Definir el dominio y resolver la identidad del nombre antes de construir. Lo verifiqué en el registro del NIC, no por DNS."
     },
     {
@@ -136,7 +136,7 @@
       "titulo": "Lo más visible de tu reputación hoy es una queja",
       "tituloCorto": "La reseña que decide",
       "descripcion": "Google ordena las opiniones por relevancia. De las tres que muestra primero, dos son quejas sobre producto: la Sushi Burguer, que decís haber creado, y la paella de promoción, descrita como «tirada a la basura, sabor ultra amargo». Además, la palabra «empleadas» aparece en 19 opiniones de las 741.",
-      "resumen": "Las dos primeras reseñas que ve un cliente nuevo son quejas de producto, no elogios.",
+      "resumen": "19 opiniones hablan de las empleadas, y las dos primeras reseñas visibles son quejas.",
       "impacto": "Los dos productos que te dieron identidad son exactamente donde tus clientes están marcando el problema, y esas reseñas se leen antes que tu carta, en el momento en que alguien decide si te compra o no. Esto tampoco lo arregla un sitio web, y no voy a decirte que sí.",
       "significa": "Antes de ver tu carta, el cliente nuevo lee que la Sushi Burguer y la paella fallaron.",
       "propongo": "Que quede dicho en el diagnóstico, sin maquillar: una auditoría que sólo trae buenas noticias no sirve para decidir. Lo que sí puedo hacer es que la respuesta a esas reseñas sea visible en el sitio."
@@ -154,41 +154,41 @@
       {
         "cliente": true,
         "celdas": [
-          "Seguidores en Instagram",
-          "56.918",
-          "campo follower_count del perfil"
+          "Instagram",
+          "perfil activo: publicás cada 34 horas",
+          "12 publicaciones medidas entre el 19 de septiembre y el 5 de octubre"
         ]
       },
       {
         "cliente": true,
         "celdas": [
-          "Interacción por publicación",
-          "0,19 %",
-          "mediana de 107 me gusta sobre 56.918"
+          "Ficha de Google",
+          "4,5 estrellas y más de 109 fotos",
+          "Google Maps — y sin ningún sitio web asociado"
         ]
       },
       {
         "cliente": true,
         "celdas": [
-          "Opiniones en Google",
-          "741 con 4,5 estrellas",
-          "ficha de Google Maps"
+          "La carta",
+          "un PDF de 30 páginas alojado en Google Drive",
+          "archivo descargado y medido acá"
         ]
       },
       {
         "cliente": true,
         "celdas": [
-          "Peso de la carta",
-          "64,8 MB en 30 páginas",
-          "archivo descargado de Drive"
+          "Los pedidos",
+          "WhatsApp y dos tiendas de PedidosYa",
+          "los enlaces de tu propio Linktree"
         ]
       },
       {
         "cliente": true,
         "celdas": [
-          "Sitios web propios",
-          "0",
-          "búsqueda y ficha de Google"
+          "El dominio del nombre",
+          "ocupado por terceros en .com y en .com.ar",
+          "consulta al registro del NIC y a Verisign"
         ]
       }
     ],
