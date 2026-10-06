@@ -28,7 +28,13 @@ jobs:
       - name: Armar dist/ desde las piezas del repo
         run: python3 scripts/armar-dist.py
 
+      # `enablement: true` — en un repositorio RECIÉN creado, Pages todavía no está
+      # habilitado, y sin esto el deploy muere con «Get Pages site failed … Not Found».
+      # Con el flag, el primer push de cualquier lead nuevo lo habilita solo: sin esto,
+      # cada lead nuevo necesita un paso manual en la web antes de poder publicar.
       - uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - uses: actions/upload-pages-artifact@v3
         with:
