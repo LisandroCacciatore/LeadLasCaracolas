@@ -588,6 +588,20 @@ def cmd_verificar(args) -> int:
 def cmd_enchufar(args) -> int:
     if not args.url:
         print("falta --url"); return 2
+
+    # Guardián: `modelo.url` viaja al entregable publicado —es el botón «Abrir el sitio
+    # nuevo» del hub y el `modelo.url` que el §10 coteja—. Si queda una dirección local,
+    # el botón no le abre a nadie. Pasó de verdad: se publicó el hub apuntando a
+    # http://127.0.0.1:8942 y el entregable salió roto sin que ningún gate lo viera.
+    if re.match(r"^https?://(localhost|127\.0\.0\.1|0\.0\.0\.0|\[::1\])(:\d+)?(/|$)", args.url, re.I):
+        if not args.permitir_local:
+            print(f"✗ {args.url} es una dirección LOCAL.")
+            print("  Ese valor se publica: es el botón «Abrir el sitio nuevo» del entregable.")
+            print("  Para cotejar contra un servidor local usá --permitir-local, y antes de")
+            print("  publicar volvé a enchufar la URL pública del sitio.")
+            return 2
+        print(f"⚠ {args.url} es local: sirve para cotejar, NO para publicar.")
+
     cfg = leer_config()
     modelo = cfg.setdefault("modelo", {})
     previo = modelo.get("url")
@@ -679,6 +693,9 @@ def main() -> int:
         s.add_argument("--dry-run", action="store_true")
         if nombre in ("enchufar", "dominio"):
             s.add_argument("--url", default="")
+        if nombre == "enchufar":
+            s.add_argument("--permitir-local", action="store_true",
+                           help="acepta una URL local (sólo para cotejar, no para publicar)")
         s.set_defaults(func=fn)
     a = ap.parse_args()
     return a.func(a)
