@@ -10,4 +10,11 @@ dist/
 # Guion de contacto: es material de trabajo, no forma parte de lo que se publica.
 00-auditoria/mensajes-para-enviar.md
 
+# Los PDF que el cliente publica (carta, catálogo) son insumos de trabajo, no
+# entregables: pesan decenas de MB y son material suyo. Van citados por peso y
+# páginas en 00-auditoria/evidencia-*.json, que es lo que se versiona.
+*.pdf
+!01-propuesta/*.pdf
+!00-auditoria/informe*.pdf
+
 # El informe en PDF SÍ es entregable: no se ignora.

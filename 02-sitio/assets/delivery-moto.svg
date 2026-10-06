@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" width="400" height="300">
+  <title>Delivery en moto con caja térmica</title>
+  <rect width="400" height="300" fill="#14202b"/>
+  <g stroke="#e6f2f7" stroke-width="4" opacity="0.35" fill="none">
+    <path d="M20 268h360"/>
+    <path d="M60 268v-18M140 268v-18M260 268v-18M340 268v-18"/>
+  </g>
+  <g transform="translate(200 150)">
+    <circle cx="-104" cy="90" r="40" fill="none" stroke="#e6f2f7" stroke-width="8"/>
+    <circle cx="104" cy="90" r="40" fill="none" stroke="#e6f2f7" stroke-width="8"/>
+    <path d="M-104 90-30 30h58l16 60" fill="none" stroke="#F00070" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-104 90 62 90" fill="none" stroke="#F00070" stroke-width="10" stroke-linecap="round"/>
+    <path d="M-30 30-58-14h-30" fill="none" stroke="#F00070" stroke-width="9" stroke-linecap="round"/>
+    <rect x="-14" y="-72" width="104" height="80" rx="10" fill="#F00070"/>
+    <rect x="-14" y="-72" width="104" height="80" rx="10" fill="none" stroke="#ffd0e2" stroke-width="5"/>
+    <path d="M10-40h56M10-16h56" stroke="#ffd0e2" stroke-width="6" stroke-linecap="round"/>
+    <path d="M62-14 88-40" stroke="#F00070" stroke-width="9" stroke-linecap="round"/>
+  </g>
+</svg>

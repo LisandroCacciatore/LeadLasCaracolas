@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" width="1200" height="630">
+  <title>Las Caracolas, pescadería y rotisería en Rosario</title>
+  <defs>
+    <linearGradient id="ogFondo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0E1B24"/>
+      <stop offset="1" stop-color="#123a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#ogFondo)"/>
+  <g fill="none" stroke="#1d4a57" stroke-width="3" opacity="0.8">
+    <circle cx="1010" cy="120" r="180"/>
+    <circle cx="1010" cy="120" r="130"/>
+    <circle cx="1010" cy="120" r="80"/>
+  </g>
+  <g transform="translate(110 120)" fill="none" stroke="#F00070" stroke-width="9" stroke-linecap="round">
+    <path d="M0 92C0 40 34 8 78 8s78 32 78 84"/>
+    <path d="M22 92C22 56 46 34 78 34s56 22 56 58"/>
+    <path d="M44 92c0-20 14-34 34-34s34 14 34 34"/>
+    <path d="M0 92h156"/>
+  </g>
+  <text x="110" y="318" font-family="Georgia, 'Times New Roman', serif" font-size="86" font-weight="700" fill="#ffffff">Las Caracolas</text>
+  <text x="110" y="372" font-family="Helvetica, Arial, sans-serif" font-size="28" letter-spacing="4" fill="#F00070">PESCADERIA · ROTISERIA · SUSHI</text>
+  <text x="110" y="466" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#cfe3ea">Fresco del día por kilo, platos preparados y la Sushi Burguer.</text>
+  <text x="110" y="524" font-family="Helvetica, Arial, sans-serif" font-size="30" fill="#cfe3ea">Corrientes 1402, esq. 9 de Julio · Rosario · 0341 637-8697</text>
+  <rect x="110" y="556" width="360" height="6" fill="#F00070"/>
+</svg>

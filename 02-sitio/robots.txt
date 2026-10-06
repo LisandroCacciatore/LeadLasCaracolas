@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+# El dominio definitivo todavia no esta definido ni comprado.
+# Cuando se publique, reemplazar PENDIENTE-DOMINIO por el dominio real.
+Sitemap: PENDIENTE-DOMINIO/sitemap.xml

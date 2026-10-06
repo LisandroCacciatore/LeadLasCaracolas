@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" width="400" height="300">
+  <title>Paella en paellera con mariscos y arroz</title>
+  <rect width="400" height="300" fill="#20160f"/>
+  <g stroke="#3a2a1c" stroke-width="3">
+    <path d="M0 30h400M0 270h400"/>
+  </g>
+  <g transform="translate(200 160)">
+    <ellipse cx="0" cy="20" rx="168" ry="46" fill="#1a1a1a"/>
+    <ellipse cx="0" cy="0" rx="168" ry="52" fill="#3a3a3a"/>
+    <ellipse cx="0" cy="0" rx="150" ry="42" fill="#e8b93f"/>
+    <ellipse cx="0" cy="0" rx="150" ry="42" fill="none" stroke="#c99a26" stroke-width="4"/>
+    <g fill="#d76a2e">
+      <circle cx="-96" cy="-8" r="15"/><circle cx="-52" cy="16" r="14"/>
+      <circle cx="10" cy="-14" r="15"/><circle cx="64" cy="14" r="14"/>
+      <circle cx="110" cy="-6" r="14"/>
+    </g>
+    <g fill="#4f7a3f">
+      <ellipse cx="-72" cy="20" rx="16" ry="9"/><ellipse cx="-14" cy="24" rx="16" ry="9"/>
+      <ellipse cx="40" cy="22" rx="16" ry="9"/><ellipse cx="90" cy="20" rx="15" ry="9"/>
+    </g>
+    <g fill="#f2e2c0">
+      <circle cx="-120" cy="14" r="4"/><circle cx="-30" cy="-2" r="4"/>
+      <circle cx="34" cy="-2" r="4"/><circle cx="86" cy="4" r="4"/>
+      <circle cx="128" cy="14" r="4"/>
+    </g>
+    <g fill="none" stroke="#2b2b2b" stroke-width="9" stroke-linecap="round">
+      <path d="M-168-14h-46M168-14h46"/>
+    </g>
+  </g>
+</svg>

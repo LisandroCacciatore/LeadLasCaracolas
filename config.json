@@ -1,240 +1,251 @@
 {
   "meta": {
     "nombre": "Las Caracolas",
-    "negocio": "[Qué es, en pocas palabras — «Nutrición · Rosario», «Pescadería y rotisería»]",
-    "rubro": "Pescadería y rotisería · Rosario",
-    "fecha": "7 de octubre de 2026",
-    "validez": "6 de noviembre de 2026",
+    "negocio": "Pescadería, rotisería y sushi",
+    "rubro": "Pescadería y rotisería · mayor y menor · Rosario",
+    "fecha": "6 de octubre de 2026",
+    "validez": "5 de noviembre de 2026",
     "url": "sin sitio propio; su presencia es https://www.instagram.com/lascaracolas_ar/",
     "presenciaUrl": "https://www.instagram.com/lascaracolas_ar/",
-    "presenciaEtiqueta": "https://www.instagram.com/lascaracolas_ar/"
+    "presenciaEtiqueta": "@lascaracolas_ar en Instagram"
+  },
+  "sitio": {
+    "_nota": "Datos que el sitio nuevo tiene que decir. Medidos el 6/10/2026; cada uno con su fuente. Lo que no está medido, queda vacío y se declara pendiente: el bot no inventa horarios ni precios.",
+    "direccion": "Corrientes 1402, esq. 9 de Julio — S2000 Rosario, Santa Fe",
+    "telefono": "0341 637-8697",
+    "whatsapp": "5493416378697",
+    "whatsappMensaje": "Hola! Quiero hacer un pedido.",
+    "horarios": "Abierto hasta las 20:45",
+    "horariosFuente": "ficha de Google Maps, leída el 6/10/2026 — sólo el cierre: el horario de apertura no se pudo medir",
+    "mapa": "https://goo.gl/maps/9EvYzcmyv2mSmsZ67",
+    "canonical": "",
+    "_canonicalNota": "vacío a propósito: el negocio todavía no tiene dominio. El bot NO debe inventarlo — un dominio adivinado del nombre puede ser el de otra empresa (lascaracolas.com.ar es de un complejo de departamentos). Se completa cuando el dominio esté decidido.",
+    "dominioPrevisto": "lascaracolasrosario.com.ar — verificado libre en el NIC el 6/10/2026; todavía no comprado",
+    "redes": {
+      "Instagram": "https://www.instagram.com/lascaracolas_ar/",
+      "TikTok": "https://www.tiktok.com/@lascaracolas_ar",
+      "Facebook": "https://www.facebook.com/lascaracolas.ar"
+    },
+    "secciones": [
+      "Inicio · (portada con la Sushi Burguer y el pedido por WhatsApp)",
+      "Pescados y mariscos · fresco del día, por kilo",
+      "Frescos y rebozados · el catálogo que hoy es un PDF",
+      "Rotisería · platos preparados y para llevar",
+      "Sushi · la Sushi Burguer y los combos, con delivery",
+      "Delivery · WhatsApp y las dos tiendas de PedidosYa",
+      "Cómo llegar y contacto · dirección, teléfono, horarios y mapa"
+    ],
+    "productos": [
+      "Pescados frescos por kilo: merluza, boga, cornalitos, y lo que marque la temporada",
+      "Mariscos: enteros, pelados, media valva y cazuela",
+      "Frescos y rebozados, listos para cocinar",
+      "Rotisería: platos preparados, paella",
+      "Sushi: la Sushi Burguer (dicen ser los creadores en Argentina) y combos",
+      "Mayor y menor: atienden a particulares y a otros locales"
+    ],
+    "imagenes": "sin fotos propias del cliente: se construyen piezas gráficas SVG con texto alternativo descriptivo. La base NO promete fotos reales, así que el srcset queda declarado como pendiente hasta que haya material."
   },
   "author": {
     "nombre": "Lisandro Cacciatore",
     "email": "lisandrocacciatore@gmail.com"
   },
   "branding": {
-    "colorPrimario": "#[hex de la identidad del cliente]"
+    "colorPrimario": "#F00070",
+    "_colorFuente": "medido del logo real (círculo magenta con el monograma LC) en la captura del perfil"
   },
-  "costoMensual": "AR$ 240.000",
-  "baseCalculo": "1 consulta semanal que no se recupera, a AR$ 60.000 (la tarifa que publicás en tu sitio)",
-  "comparativos": 7,
-  "fechasPermitidas": [],
   "modelo": {
-    "url": "[URL pública del sitio nuevo]",
-    "titulo": "Página modelo",
-    "bajada": "[Una línea: qué se ve ahí]",
-    "caption": "Nuevo — [mejora concreta respecto de hoy]",
-    "cta": "Ver la página modelo"
+    "url": "http://127.0.0.1:8942",
+    "titulo": "Sitio nuevo (la página modelo)",
+    "bajada": "El sitio está construido y verificado. No es un boceto.",
+    "cta": "Abrir el sitio nuevo",
+    "_pendiente": "sin URL hasta que el bot lo publique"
   },
   "salida": {
     "slug": "las-caracolas"
   },
-  "verificacionPDF": {
-    "datos": [
-      "[Dato verificado del cliente que debe sostenerse en el PDF]"
-    ],
-    "hojas": [
-      5,
-      14
+  "recomendados": [
+    "whatsapp",
+    "migracion",
+    "seo-estructurado",
+    "peso",
+    "terminacion",
+    "verificacion"
+  ],
+  "base": {
+    "precio": 350,
+    "items": [
+      "Sitio propio publicado en tu dominio: deja de depender del PDF en Google Drive y del Linktree con publicidad ajena",
+      "7 secciones con tus datos reales: pescados y mariscos, frescos y rebozados, rotisería, sushi, delivery, cómo llegar y contacto",
+      "Tu carta como página web, con los precios escritos: se abre al instante en el celular y Google la puede leer",
+      "Tu dirección, tu teléfono y tus horarios publicados como texto, no dentro de una imagen",
+      "WhatsApp con el pedido ya empezado, en todas las secciones",
+      "Diseño con tu identidad: el magenta de tu logo, sin plantilla compartida",
+      "SEO base: idioma correcto, descripción, datos estructurados de comercio local, mapa del sitio y textos alternativos",
+      "Carga rápida en celular y verificación de accesibilidad",
+      "Publicación, apuntado del dominio y verificación en vivo"
     ]
-  },
-  "propuesta": {
-    "saludo": "[saludo: redactar en segunda persona, sin muletillas]",
-    "heroTitulo": "[heroTitulo: redactar en segunda persona, sin muletillas]",
-    "heroLead": "[heroLead: redactar en segunda persona, sin muletillas]",
-    "comparativoTitulo": "[comparativoTitulo: redactar en segunda persona, sin muletillas]",
-    "costoNota": "[costoNota: redactar en segunda persona, sin muletillas]",
-    "propuestaTitulo": "[propuestaTitulo: redactar en segunda persona, sin muletillas]",
-    "propuestaIntro": "[propuestaIntro: redactar en segunda persona, sin muletillas]",
-    "baseLabel": "[baseLabel: redactar en segunda persona, sin muletillas]",
-    "preguntasTitulo": "[preguntasTitulo: redactar en segunda persona, sin muletillas]",
-    "cierreTitulo": "[cierreTitulo: redactar en segunda persona, sin muletillas]",
-    "cierreBody": "[cierreBody: redactar en segunda persona, sin muletillas]",
-    "conversionTitulo": "[conversionTitulo: redactar en segunda persona, sin muletillas]"
-  },
-  "callout": {
-    "label": "Costo de no hacer nada",
-    "strong": "[Una línea con el costo, sin repetir un número que ya esté en el cuadro]",
-    "note": "[De dónde sale el número y qué queda marcado [INFERIBLE]]",
-    "excepcionTarifa": false
-  },
-  "conversion": {
-    "tipoCambio": 1551.9,
-    "tipoCambioFecha": "4 de octubre de 2026",
-    "tipoCambioFuente": "dolarapi.com (dólar bolsa, venta)",
-    "tipoCambioDetalle": "USD 1 = AR$ 1.551,90",
-    "tarifaSesion": 60000,
-    "tarifaSesionFuente": "liclisandrolagos.com — sección Precios (publicada por el propio profesional)",
-    "unidad": "sesiones",
-    "referenciaEtiqueta": "la tarifa que publicás",
-    "costoMensualNum": 240000,
-    "cierre": "<p class=\"evsrc\">El pack completo ({total}) se paga con {unidades} {unidad}: menos de lo que facturás en tres semanas trabajando a una consulta por día. Y si el sitio recupera una sola consulta por semana, la base de {base} se paga en {recupero} meses.</p>\n    <p class=\"evsrc\">[INFERIBLE] La recuperación depende de tu agenda real, que no veo. El número de {unidad} equivalentes, en cambio, es aritmética sobre datos que vos publicás.</p>"
   },
   "hallazgos": [
     {
-      "tipo": "[MEDIDO]",
+      "tipo": "MEDIDO",
       "prioridad": "alta",
-      "titulo": "[Titular para el INFORME. Máx. 12 palabras, sin coloquialismos]",
-      "tituloCorto": "[Titular para la PROPUESTA. Corto y distinto del de arriba]",
-      "descripcion": "[Detalle largo, solo para el informe. Empieza con el contexto medido]",
-      "resumen": "[Una línea para la propuesta. Empieza con el NÚMERO, no con contexto]",
-      "impacto": "[Qué significa, redactado para el informe]",
-      "significa": "[Qué significa, redactado distinto para la propuesta]",
-      "propongo": "[Módulo Mx o acción concreta. No repite el dato]"
+      "titulo": "Los 57.000 seguidores no son 57.000 clientes",
+      "tituloCorto": "La audiencia que no llega",
+      "descripcion": "Medí las últimas 12 publicaciones de tu Instagram, entre el 19 de septiembre y el 5 de octubre: una cada 34 horas. Juntaron entre 15 y 229 me gusta, con una mediana de 107. Siete de las doce tienen un comentario o ninguno. La del 40 % OFF del Día de la Madre juntó 48 me gusta y ningún comentario.",
+      "resumen": "Una publicación tuya la ve el 0,19 % de tus 56.918 seguidores.",
+      "impacto": "El número grande mide audiencia acumulada, no audiencia viva. Lo que publicás hoy lo ve alrededor de una décima parte de lo que correspondería para una cuenta de ese tamaño, que es entre el 1 % y el 3 %. El problema no es que publiques poco —publicás el doble de seguido que el promedio— ni que publiques mal: es que el activo que creés que tenés no está donde creés.",
+      "significa": "Publicás todos los días para 107 personas de un total de 56.918. Cada publicación rinde una décima parte de lo que debería.",
+      "propongo": "Esto no se arregla con un sitio web, y no te vendo un sitio para resolverlo. Se cambia desde el contenido y desde dónde vive la audiencia, y merece una conversación aparte."
+    },
+    {
+      "tipo": "MEDIDO",
+      "prioridad": "alta",
+      "titulo": "La carta pesa 64,8 MB y vive en Google Drive",
+      "tituloCorto": "La carta que nadie abre",
+      "descripcion": "Los dos documentos con los que vendés son PDF alojados en Google Drive: la Carta Rotisería de octubre, de 30 páginas y 64,8 MB, y el Catálogo de frescos y rebozados, de 7 páginas y 3,4 MB. Los dos cuelgan de tu Linktree y son el paso obligado de cualquiera que quiera comprarte.",
+      "resumen": "Tu carta son 64,8 MB en un PDF de 30 páginas dentro de Google Drive.",
+      "impacto": "Tres consecuencias que se miden: 64,8 MB es más de un minuto de descarga en una conexión móvil común, así que quien entra con datos abandona o gasta su plan en un menú; Google no puede leer un PDF dentro de Drive, así que hoy nadie que busque una pescadería en Rosario encuentra tus precios; y como los archivos se llaman «OCTUBRE», hay que rehacerlos y volver a subirlos todos los meses, dejando el anterior público con su dirección intacta.",
+      "significa": "64,8 MB para ver un menú. Y Google no puede leer ni una línea de lo que vendés.",
+      "propongo": "M2 — Tu carta como página: se abre al instante, tiene buscador y tus precios son texto que Google indexa. Se actualiza sin subir un PDF nuevo cada mes."
+    },
+    {
+      "tipo": "MEDIDO",
+      "prioridad": "alta",
+      "titulo": "Toda la demanda entra por canales que son de otros",
+      "tituloCorto": "El negocio alquilado",
+      "descripcion": "Tu Linktree tiene nueve enlaces propios: dos PDF en Google Drive, WhatsApp, dos tiendas de PedidosYa, el mapa, TikTok, Facebook e Instagram. En esa misma página aparecen avisos de Hulu, HelloFresh, ARMRA, Omnilux, Curology, Headspace, Babbel y once marcas más: son de la plataforma, no tuyos, y se muestran en la misma pantalla que tu carta.",
+      "resumen": "Tus clientes te compran a través de cuatro empresas que cobran o cobran peaje en algún punto.",
+      "impacto": "Instagram es de Meta, el menú es de Google, los pedidos pasan por PedidosYa y la página donde está tu carta es de Linktree —que además monetiza tu tráfico con publicidad ajena. Y no hay un solo lugar donde guardes el dato de quién te compró: ni un correo, ni una lista. Si mañana te limitan el alcance o sube la comisión, no tenés a quién avisarle directo.",
+      "significa": "El pedido pasa por WhatsApp y por PedidosYa. El menú, por Drive. La vidriera, por Linktree. Nada de eso es tuyo.",
+      "propongo": "M1 — Pedido directo desde tu propia página: el botón de WhatsApp al lado de la carta, y el dato del cliente queda en un lugar que es tuyo."
+    },
+    {
+      "tipo": "MEDIDO",
+      "prioridad": "media",
+      "titulo": "El nombre ya está tomado y Google te pide el sitio",
+      "tituloCorto": "El nombre ocupado",
+      "descripcion": "Los dos dominios con tu nombre exacto son de otros: lascaracolas.com.ar es un complejo de departamentos en la costa, y lascaracolas.com es un sitio de periodismo feminista en México. Y en tu propia ficha de Google, en la sección «Agregar la información que falta», la primera línea dice «Agregar sitio web».",
+      "resumen": "Google sabe que existís y no tiene a dónde mandar a quien te busca por nombre.",
+      "impacto": "Tenés 741 opiniones con 4,5 estrellas y más de 109 fotos: un prestigio que costó años juntar. Pero una ficha de Google sin sitio no transfiere esa autoridad a ningún lado, y quien te busca por nombre aterriza en el complejo de departamentos o en el podcast. Verifiqué el registro: caracolasrosario.com.ar y lascaracolasrosario.com.ar están libres.",
+      "significa": "741 opiniones, 4,5 estrellas, y ni una página tuya que las cobre. El nombre está ocupado en los dos dominios exactos.",
+      "propongo": "Definir el dominio y resolver la identidad del nombre antes de construir. Lo verifiqué en el registro del NIC, no por DNS."
+    },
+    {
+      "tipo": "MEDIDO",
+      "prioridad": "media",
+      "titulo": "Lo más visible de tu reputación hoy es una queja",
+      "tituloCorto": "La reseña que decide",
+      "descripcion": "Google ordena las opiniones por relevancia. De las tres que muestra primero, dos son quejas sobre producto: la Sushi Burguer, que decís haber creado, y la paella de promoción, descrita como «tirada a la basura, sabor ultra amargo». Además, la palabra «empleadas» aparece en 19 opiniones de las 741.",
+      "resumen": "Las dos primeras reseñas que ve un cliente nuevo son quejas de producto, no elogios.",
+      "impacto": "Los dos productos que te dieron identidad son exactamente donde tus clientes están marcando el problema, y esas reseñas se leen antes que tu carta, en el momento en que alguien decide si te compra o no. Esto tampoco lo arregla un sitio web, y no voy a decirte que sí.",
+      "significa": "Antes de ver tu carta, el cliente nuevo lee que la Sushi Burguer y la paella fallaron.",
+      "propongo": "Que quede dicho en el diagnóstico, sin maquillar: una auditoría que sólo trae buenas noticias no sirve para decidir. Lo que sí puedo hacer es que la respuesta a esas reseñas sea visible en el sitio."
     }
   ],
   "comparativo": {
-    "titulo": "",
-    "intro": "[De dónde salió el set de comparables y cómo se midió]",
+    "titulo": "Tu presencia digital, medida",
+    "intro": "Medí tu perfil de Instagram, tu ficha de Google, tu Linktree y tus dos PDF con la misma herramienta y el mismo día, el 6 de octubre de 2026.",
     "columnas": [
-      "Sitio",
-      "Estado",
-      "Idioma",
-      "Descripción en Google",
-      "Datos estructurados",
-      "Mapa del sitio",
-      "Botón de WhatsApp"
+      "Dato",
+      "Valor medido",
+      "Fuente"
     ],
     "filas": [
       {
-        "cliente": false,
+        "cliente": true,
         "celdas": [
-          "[Completa acá]",
-          "200 OK",
+          "Seguidores en Instagram",
+          "56.918",
+          "campo follower_count del perfil"
+        ]
+      },
+      {
+        "cliente": true,
+        "celdas": [
+          "Interacción por publicación",
+          "0,19 %",
+          "mediana de 107 me gusta sobre 56.918"
+        ]
+      },
+      {
+        "cliente": true,
+        "celdas": [
+          "Opiniones en Google",
+          "741 con 4,5 estrellas",
+          "ficha de Google Maps"
+        ]
+      },
+      {
+        "cliente": true,
+        "celdas": [
+          "Peso de la carta",
+          "64,8 MB en 30 páginas",
+          "archivo descargado de Drive"
+        ]
+      },
+      {
+        "cliente": true,
+        "celdas": [
+          "Sitios web propios",
           "0",
-          "0",
-          "0",
-          "0",
-          "0"
+          "búsqueda y ficha de Google"
         ]
       }
     ],
     "bullets": [],
     "kpis": [
       {
-        "valor": "0",
-        "label": "[máx. 8 palabras]"
+        "valor": "0,19 %",
+        "label": "interacción real sobre 56.918 seguidores"
+      },
+      {
+        "valor": "64,8 MB",
+        "label": "pesa tu carta en Google Drive"
       },
       {
         "valor": "0",
-        "label": "[máx. 8 palabras]"
-      },
-      {
-        "valor": "0",
-        "label": "[máx. 8 palabras]"
+        "label": "sitios web propios"
       }
     ],
-    "nota": "[Unidad de cada columna. Sin celdas ambiguas]",
-    "medidoEl": "[fecha]",
+    "nota": "Cada fila salió de la medición del 6/10/2026 y está guardada en 00-auditoria/evidencia-caracolas.json",
+    "medidoEl": "6 de octubre de 2026",
     "mostrarEnInforme": true
   },
-  "modulos": [
-    {
-      "id": "m1",
-      "code": "M1",
-      "icon": "chat",
-      "title": "[Nombre del módulo M1]",
-      "price": 80,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m2",
-      "code": "M2",
-      "icon": "notifications_active",
-      "title": "[Nombre del módulo M2]",
-      "price": 120,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m3",
-      "code": "M3",
-      "icon": "calendar_month",
-      "title": "[Nombre del módulo M3]",
-      "price": 100,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m4",
-      "code": "M4",
-      "icon": "search",
-      "title": "[Nombre del módulo M4]",
-      "price": 100,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m5",
-      "code": "M5",
-      "icon": "receipt_long",
-      "title": "[Nombre del módulo M5]",
-      "price": 60,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    },
-    {
-      "id": "m6",
-      "code": "M6",
-      "icon": "edit_note",
-      "title": "[Nombre del módulo M6]",
-      "price": 90,
-      "short": "[Una línea: qué problema resuelve]",
-      "bullets": [
-        "[Bullet, máx. 4 por módulo]"
-      ]
-    }
-  ],
-  "nextSteps": [
-    "[Próximo paso concreto. Máx. 4]"
+  "callout": {
+    "label": "Costo de no hacer nada",
+    "strong": "Tu carta tarda más de un minuto en abrir en el celular y Google no puede leer ni uno de tus precios.",
+    "note": "La descarga es aritmética sobre el peso medido del archivo. Lo que no puedo medir es cuántos pedidos se pierden en ese minuto: eso depende de tu tráfico real, y no lo veo. [INFERIBLE]",
+    "excepcionTarifa": true
+  },
+  "alcance": [
+    "✓ Perfil de Instagram: seguidores, publicaciones, biografía, enlace de la biografía y alcance real de las últimas 12 publicaciones",
+    "✓ Ficha de Google: puntuación, opiniones, fotos, horario de cierre, teléfono y ausencia de sitio web",
+    "✓ Los nueve enlaces del Linktree, con la publicidad de terceros que aparece en la misma página",
+    "✓ Peso, páginas y capa de texto de los dos PDF de la carta",
+    "✓ Titularidad de los cuatro dominios con el nombre, consultada al registro del NIC y a Verisign",
+    "✗ Facturación, ticket promedio y margen: no se miden desde afuera",
+    "✗ Comisión de PedidosYa por pedido: no está publicada en el material accesible",
+    "✗ Cuántos pedidos entran por WhatsApp y cuántos por PedidosYa: es dato interno tuyo",
+    "✗ Cuántos de tus 56.918 seguidores son reales: Instagram sólo publica el total",
+    "✗ Contenido de tus tiendas de PedidosYa, tu TikTok y tu Facebook: bloquearon la lectura automatizada"
   ],
   "preguntasAbiertas": [
-    "[Qué necesitás del cliente para arrancar]"
+    "El horario de apertura de cada día: de tu ficha de Google sólo se puede leer el cierre, a las 20:45",
+    "Qué precios querés publicar y cuáles preferís que se consulten por WhatsApp",
+    "Si tenés fotos propias del local, de la vidriera y de los platos: la base no promete fotos, pero con material el sitio cambia de nivel",
+    "Qué de tu menú cambia por temporada, para que la página lo refleje sola"
   ],
-  "peso": {
-    "medidoEl": "4 de octubre de 2026",
-    "antes": {
-      "total_kb": 3555.8,
-      "archivos": 18,
-      "html_kb": 26.4
-    },
-    "despues": {
-      "total_kb": 724.6,
-      "archivos": 5,
-      "html_kb": 48.4
-    },
-    "comando": "python scripts/pesar.py <url>"
-  },
-  "imagenes": {
-    "antes": "00-auditoria/capturas/antes-portada.jpg",
-    "despues": "02-sitio/capturas/despues-portada.jpg",
-    "captionAntes": "Hoy — template de plataforma, sin WhatsApp, sin descripción para Google",
-    "captionDespues": "Propuesta — sitio propio, tus fotos reales, tu habilitación como texto"
-  },
-  "base": {
-    "precio": 350,
-    "items": [
-      "[Qué incluye la base. Una promesa por línea, verificable contra el sitio]",
-      "[Si promete N secciones, el sitio nuevo tiene que tener N]"
-    ]
-  },
   "sinIncluir": [
-    "[Qué no incluye la propuesta. Máx. 5 ítems]"
+    "Fotografía y producción de imágenes: no hay fotos propias y no las genero",
+    "Gestión de redes ni publicación de contenido",
+    "Publicidad paga",
+    "El alta fiscal y los trámites del dominio a tu nombre",
+    "Respuesta a las reseñas de Google"
   ],
-  "alcance": [
-    "✓ [Lo que sí se midió]",
-    "✗ [Lo que no se pudo medir, y por qué]"
+  "nextSteps": [
+    "Ver el sitio nuevo funcionando en el enlace de la propuesta",
+    "Definir el dominio entre los dos que verifiqué libres",
+    "Una llamada de veinte minutos para el horario y los precios",
+    "Publicar en tu dominio y abrir el indexado"
   ]
 }

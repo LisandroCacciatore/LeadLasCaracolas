@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 260" role="img" width="400" height="260">
+  <title>Mapa esquemático de la esquina de Corrientes 1402 y 9 de Julio, en Rosario</title>
+  <rect width="400" height="260" fill="#e9eef1"/>
+  <g fill="#dbe3e8">
+    <rect x="0" y="0" width="150" height="96"/>
+    <rect x="228" y="0" width="172" height="96"/>
+    <rect x="0" y="150" width="150" height="110"/>
+    <rect x="228" y="150" width="172" height="110"/>
+  </g>
+  <g stroke="#c3ced5" stroke-width="1">
+    <path d="M12 18h120M12 44h120M12 70h120M240 18h140M240 44h140M240 70h140"/>
+    <path d="M12 168h120M12 194h120M12 220h120M240 168h140M240 194h140M240 220h140"/>
+  </g>
+  <path d="M150 0h78v260h-78Z" fill="#ffffff"/>
+  <path d="M0 96h400v54H0Z" fill="#ffffff"/>
+  <g stroke="#f0c419" stroke-width="5" stroke-dasharray="22 16">
+    <path d="M189 0v260M0 123h400"/>
+  </g>
+  <circle cx="189" cy="123" r="30" fill="#F00070" opacity="0.16"/>
+  <circle cx="189" cy="123" r="11" fill="#F00070"/>
+  <circle cx="189" cy="123" r="11" fill="none" stroke="#ffffff" stroke-width="4"/>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="13" font-weight="700" fill="#0E1B24">
+    <text x="196" y="176" transform="rotate(90 196 176)">9 DE JULIO</text>
+    <text x="20" y="88">CORRIENTES 1402</text>
+  </g>
+  <g font-family="Helvetica, Arial, sans-serif" font-size="11" fill="#6b7c87">
+    <text x="16" y="240">ROSARIO · SANTA FE</text>
+  </g>
+</svg>

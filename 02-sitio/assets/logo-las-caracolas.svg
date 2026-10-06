@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 56" role="img" width="220" height="56">
+  <title>Las Caracolas</title>
+  <g fill="none" stroke="#F00070" stroke-width="4" stroke-linecap="round">
+    <path d="M16 44c0-15 11-24 24-24s24 9 24 24"/>
+    <path d="M22 44c0-11 8-18 18-18s18 7 18 18"/>
+    <path d="M28 44c0-7 5-12 12-12s12 5 12 12"/>
+    <path d="M16 44h48"/>
+  </g>
+  <text x="82" y="27" font-family="Georgia, 'Times New Roman', serif" font-size="21" font-weight="700" fill="#0E1B24">Las Caracolas</text>
+  <text x="82" y="45" font-family="Helvetica, Arial, sans-serif" font-size="11" letter-spacing="2.4" fill="#F00070">PESCADERIA Y ROTISERIA</text>
+</svg>

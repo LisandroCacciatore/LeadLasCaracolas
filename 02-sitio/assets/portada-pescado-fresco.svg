@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" role="img" width="400" height="300">
+  <title>Pescado fresco del día sobre una bandeja de hielo</title>
+  <defs>
+    <linearGradient id="agua" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0E1B24"/>
+      <stop offset="1" stop-color="#123a4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#agua)"/>
+  <g fill="none" stroke="#8fd6e8" stroke-width="2" opacity="0.5">
+    <path d="M0 60c40 12 80-12 120 0s80 12 120 0 80-12 160 0"/>
+    <path d="M0 88c40 12 80-12 120 0s80 12 120 0 80-12 160 0"/>
+  </g>
+  <g transform="translate(200 175)">
+    <path d="M-105 0c30-42 78-60 120-60 26 0 46 5 62 13l44-26-10 41c4 12 6 21 6 32 0 11-2 20-6 32l10 41-44-26c-16 8-36 13-62 13-42 0-90-18-120-60Z" fill="#e8f4f8"/>
+    <circle cx="58" cy="-18" r="9" fill="#0E1B24"/>
+    <path d="M-40-24c22-14 56-18 82-8" fill="none" stroke="#9dc4d2" stroke-width="5" stroke-linecap="round"/>
+    <path d="M-40 24c22 14 56 18 82 8" fill="none" stroke="#9dc4d2" stroke-width="5" stroke-linecap="round"/>
+  </g>
+  <g stroke="#ffffff" stroke-width="2" opacity="0.65" fill="none">
+    <path d="M40 268h60M120 268h44M186 268h70M276 268h84"/>
+  </g>
+</svg>
