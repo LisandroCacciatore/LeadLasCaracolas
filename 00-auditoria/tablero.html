@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+<meta charset="utf-8">
+<style>
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0; background: transparent;
+    color: var(--foreground, #111);
+    font-family: inherit; font-size: 13px; line-height: 1.45;
+  }
+  h3 { margin: 0 0 10px; font-size: 12px; letter-spacing: .08em; text-transform: uppercase;
+       color: var(--muted-foreground, #666); font-weight: 600; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(112px, 1fr));
+          gap: 1px; background: var(--border, #e5e5e5); border: 1px solid var(--border, #e5e5e5); }
+  .c { background: var(--card, transparent); padding: 10px 12px; }
+  .n { font-size: 22px; font-weight: 700; letter-spacing: -.02em; font-variant-numeric: tabular-nums; }
+  .l { font-size: 11px; color: var(--muted-foreground, #666); margin-top: 2px; }
+  .flag { color: var(--accent, #b00); }
+  section { margin-top: 18px; }
+  .bar { display: flex; align-items: center; gap: 10px; margin: 7px 0; }
+  .bar span.k { width: 96px; font-size: 11px; color: var(--muted-foreground, #666); flex: none; }
+  .track { position: relative; flex: 1; height: 16px; background: var(--border, #eee); border-radius: 2px; overflow: hidden; }
+  .fill { position: absolute; inset: 0 auto 0 0; background: var(--accent, #b00); opacity: .85; }
+  .fill.bench { background: var(--muted-foreground, #999); opacity: .35; }
+  .bar span.v { width: 84px; flex: none; font-size: 11px; font-variant-numeric: tabular-nums; text-align: right; }
+  table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  td { padding: 5px 0; border-bottom: 1px solid var(--border, #eee); vertical-align: top; }
+  td:first-child { color: var(--muted-foreground, #666); padding-right: 12px; white-space: nowrap; }
+  .acts { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 18px; }
+  button { font: inherit; font-size: 12px; padding: 7px 13px; cursor: pointer;
+           border: 1px solid var(--border, #ccc); border-radius: 3px;
+           background: transparent; color: var(--foreground, #111); }
+  button:hover { border-color: var(--accent, #b00); color: var(--accent, #b00); }
+  .tag { display: inline-block; font-size: 10px; padding: 1px 5px; border-radius: 2px;
+         border: 1px solid var(--border, #ccc); color: var(--muted-foreground, #666); margin-left: 6px; }
+</style>
+</head>
+<body>
+
+<h3>Las Caracolas · medido el 6/10/2026</h3>
+<div class="grid">
+  <div class="c"><div class="n">56.918</div><div class="l">seguidores IG</div></div>
+  <div class="c"><div class="n flag">0,19 %</div><div class="l">interacción real</div></div>
+  <div class="c"><div class="n">741</div><div class="l">opiniones · 4,5 ★</div></div>
+  <div class="c"><div class="n flag">64,8 MB</div><div class="l">pesa la carta</div></div>
+  <div class="c"><div class="n flag">0</div><div class="l">sitios web propios</div></div>
+</div>
+
+<section>
+  <h3>Alcance por publicación vs. lo esperable</h3>
+  <div class="bar"><span class="k">Las Caracolas</span>
+    <div class="track"><div class="fill" style="width:9.4%"></div></div>
+    <span class="v">0,19 %</span></div>
+  <div class="bar"><span class="k">Rango del rubro</span>
+    <div class="track"><div class="fill bench" style="width:100%"></div></div>
+    <span class="v">1 – 3 %</span></div>
+  <div class="l" style="margin-top:4px">Mediana de las últimas 12 publicaciones (19/9 – 5/10/2026):
+    107 me gusta. Rango del rubro: <span class="tag">INFERIBLE</span></div>
+</section>
+
+<section>
+  <h3>El camino de compra hoy</h3>
+  <table>
+    <tr><td>Instagram</td><td>56.918 seguidores · 809 posts · link en bio</td></tr>
+    <tr><td>Linktree</td><td>9 enlaces propios + publicidad ajena (Hulu, HelloFresh +16)</td></tr>
+    <tr><td>Carta</td><td>PDF de Google Drive · 30 páginas · 64,8 MB</td></tr>
+    <tr><td>Pedidos</td><td>WhatsApp + 2 tiendas de PedidosYa <span class="tag">NO VERIFICADO</span></td></tr>
+    <tr><td>Google</td><td>4,5 ★ · 741 opiniones · «Agregar sitio web» ← vacío</td></tr>
+  </table>
+</section>
+
+<div class="acts">
+  <button data-hermes-send="Armá el informe PDF y la propuesta comercial de Las Caracolas con el motor de leads, y construí la página nueva">Armá el informe PDF + propuesta + sitio</button>
+  <button data-hermes-send="Medí la interacción de los últimos 6 meses del Instagram de Las Caracolas para ver si el 0,19% es tendencia o es reciente">Profundizá la caída de alcance</button>
+  <button data-hermes-send="Medí 7 pescaderías y rotiserías de Rosario como comparables para el cuadro de Las Caracolas">Medí comparables de Rosario</button>
+</div>
+
+</body>
+</html>

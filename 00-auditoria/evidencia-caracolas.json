@@ -1,0 +1,344 @@
+{
+  "cliente": {
+    "nombre": "Las Caracolas",
+    "rubro": "Pescadería, rotisería y sushi (mayor y menor)",
+    "ciudad": "Rosario, Santa Fe",
+    "direccion": "Corrientes 1402, esq. 9 de Julio, S2000 Rosario",
+    "telefono_maps": "0341 637-8697",
+    "whatsapp": "https://wa.me/5493416378697",
+    "medido_el": "6 de octubre de 2026"
+  },
+  "instagram": {
+    "fuente": "https://www.instagram.com/lascaracolas_ar/ (perfil público, sin sesión)",
+    "usuario": "lascaracolas_ar",
+    "nombre": "Las Caracolas",
+    "seguidores": 56918,
+    "seguidos": 0,
+    "publicaciones": 809,
+    "verificado": false,
+    "bio": "Los creadores de la SUSHI BURGUER en Argentina ❤️\n🍤 Tradicion familiar\n📍 Corrientes 1402, esq. 9 de Julio, Rosario\n📲 ¡Pedidos y Asesoramiento! 😉↙️",
+    "link_en_bio": "https://linktr.ee/lascaracolas_ar",
+    "estado": "MEDIDO",
+    "nota": "Seguidores y seguidos leídos de follower_count y following_count del JSON del propio perfil; publicaciones, del meta description del mismo perfil. Coinciden con el render (56,9 mil seguidores)."
+  },
+  "alcance_feed": {
+    "fuente": "meta description declarada por Instagram en cada publicación",
+    "publicaciones_medidas": 12,
+    "ventana": "October 1, 2026 a September 30, 2026",
+    "dias": 17,
+    "likes_min": 15,
+    "likes_max": 229,
+    "likes_mediana": 107,
+    "likes_promedio": 107,
+    "comentarios_total": 72,
+    "publicaciones_con_menos_de_2_comentarios": 7,
+    "tasa_interaccion_pct": 0.188,
+    "estado": "MEDIDO",
+    "detalle": [
+      {
+        "fecha": "October 5, 2026",
+        "likes": 48,
+        "comentarios": 0,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DeIRXMoxLhC",
+        "caption": "48 likes, 0 comments - lascaracolas_ar el October 5, 2026: \"🚨 40% OFF para el Día de la Madre 🐟💥\n\nEl viernes 1"
+      },
+      {
+        "fecha": "October 4, 2026",
+        "likes": 184,
+        "comentarios": 21,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DeFsnYnRGok",
+        "caption": "184 likes, 21 comments - lascaracolas_ar el October 4, 2026: \"Vimos sus comentarios 👀\n¿Cocinar sin guantes es "
+      },
+      {
+        "fecha": "October 2, 2026",
+        "likes": 118,
+        "comentarios": 0,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DeAwnEvxHAn",
+        "caption": "118 likes, 0 comments - lascaracolas_ar el October 2, 2026: \"🔊 Subí el volumen y decime que este sonido no te "
+      },
+      {
+        "fecha": "October 1, 2026",
+        "likes": 43,
+        "comentarios": 1,
+        "url": "https://www.instagram.com/lascaracolas_ar/p/Dd-EekzRUOZ",
+        "caption": "43 likes, 1 comments - lascaracolas_ar el October 1, 2026: \"De esos mensajes que con solo leerlos ya te ponen "
+      },
+      {
+        "fecha": "September 30, 2026",
+        "likes": 208,
+        "comentarios": 8,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/Dd7adtXRG0l",
+        "caption": "208 likes, 8 comments - lascaracolas_ar el September 30, 2026: \"No era una reseña, era un intento de conseguir"
+      },
+      {
+        "fecha": "September 29, 2026",
+        "likes": 15,
+        "comentarios": 0,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/Dd47RcDxL4g",
+        "caption": "15 likes, 0 comments - lascaracolas_ar el September 29, 2026: \"En Las Caracolas, tu ensalada se arma a tu medi"
+      },
+      {
+        "fecha": "September 25, 2026",
+        "likes": 126,
+        "comentarios": 0,
+        "url": "https://www.instagram.com/lascaracolas_ar/p/DduuIcEkfjH",
+        "caption": "126 likes, 0 comments - lascaracolas_ar el September 25, 2026: \"30 días sin sushi y ya se empiezan a notar las"
+      },
+      {
+        "fecha": "September 24, 2026",
+        "likes": 93,
+        "comentarios": 33,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DdsCjzExaue",
+        "caption": "93 likes, 33 comments - lascaracolas_ar el September 24, 2026: \"¿Ya tenés en mente a quién etiquetar? 👀🍣\n\nDale"
+      },
+      {
+        "fecha": "September 23, 2026",
+        "likes": 76,
+        "comentarios": 3,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/Ddpfxt1ReJh",
+        "caption": "76 likes, 3 comments - lascaracolas_ar el September 23, 2026: \"¿Ya escuchaste hablar de los Hand Rolls virales"
+      },
+      {
+        "fecha": "September 22, 2026",
+        "likes": 229,
+        "comentarios": 5,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DdmxwGWRChv",
+        "caption": "229 likes, 5 comments - lascaracolas_ar el September 22, 2026: \"Salimos a regalar sushi a quienes pasaban por "
+      },
+      {
+        "fecha": "September 21, 2026",
+        "likes": 34,
+        "comentarios": 0,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/DdkGYdyxNoH",
+        "caption": "34 likes, 0 comments - lascaracolas_ar el September 21, 2026: \"🌸🥗 Llegó la primavera y con ella, las ensaladas"
+      },
+      {
+        "fecha": "September 19, 2026",
+        "likes": 107,
+        "comentarios": 1,
+        "url": "https://www.instagram.com/lascaracolas_ar/reel/Ddd_QM3xPof",
+        "caption": "107 likes, 1 comments - lascaracolas_ar el September 19, 2026: \"Hoy la excusa es buenísima: festejamos el Día "
+      }
+    ],
+    "referencia_sectorial": {
+      "valor": "1% a 3% por publicación es el rango habitual para cuentas de este tamaño",
+      "estado": "INFERIBLE",
+      "nota": "Rango publicado por benchmarks de la industria; NO es una medición de este perfil."
+    }
+  },
+  "google_maps": {
+    "fuente": "ficha de Google Maps abierta con Chrome el 6 de octubre de 2026",
+    "nombre": "Las Caracolas",
+    "categoria": "Tienda de alimentación",
+    "puntuacion": 4.5,
+    "opiniones": 741,
+    "fotos": "más de 109",
+    "horario": "Abierto · cierra a las 20:45",
+    "plus_code": "29W4+P7 Rosario, Santa Fe",
+    "sitio_web": null,
+    "campo_sitio_web": "Google ofrece «Agregar sitio web» — no tiene ninguno asociado",
+    "temas_de_opiniones": {
+      "sushi": 32,
+      "empleadas": 19,
+      "rosario": 17,
+      "paella": 13
+    },
+    "estado": "MEDIDO",
+    "nota": "Las reseñas que Google muestra primero incluyen dos quejas negativas sobre producto (hamburguesa de sushi y paella promoción) fechadas hace 2 y 3 meses."
+  },
+  "canales_propios": {
+    "sitio_web": null,
+    "estado": "MEDIDO",
+    "nota": "No tiene sitio propio. Google pide el dato y no lo tiene."
+  },
+  "dominios": {
+    "metodo": "WHOIS crudo por TCP al puerto 43 del registro (whois.nic.ar para .ar, whois.verisign-grs.com para .com) y RDAP de Verisign para .com. rdap.nic.ar se descartó como fuente: devuelve 404 hasta para dominios registrados.",
+    "consultado_el": "6 de octubre de 2026",
+    "candidatos": [
+      {
+        "dominio": "caracolasrosario.com",
+        "estado": "LIBRE",
+        "fuente": "RDAP de Verisign (rdap.verisign.com/com/v1), HTTP 404 = sin registro"
+      },
+      {
+        "dominio": "caracolasrosario.com.ar",
+        "estado": "LIBRE",
+        "fuente": "whois.nic.ar: «El dominio no se encuentra registrado en NIC Argentina»"
+      },
+      {
+        "dominio": "lascaracolasrosario.com.ar",
+        "estado": "LIBRE",
+        "fuente": "whois.nic.ar: «El dominio no se encuentra registrado en NIC Argentina»"
+      },
+      {
+        "dominio": "pescaderialascaracolas.com.ar",
+        "estado": "LIBRE",
+        "fuente": "whois.nic.ar: «El dominio no se encuentra registrado en NIC Argentina»"
+      },
+      {
+        "dominio": "caracolas.com.ar",
+        "estado": "TOMADO",
+        "titular": "DATTATEC.COM S.R.L.",
+        "alta": "2026-06-29",
+        "vence": "2027-06-29",
+        "que_sirve": "Caracolas Deco — muebles, decoración y blanquería de Casilda, Santa Fe",
+        "fuente": "whois.nic.ar"
+      },
+      {
+        "dominio": "lascaracolas.com.ar",
+        "estado": "TOMADO",
+        "titular": "PUGNALE Fernando Diego",
+        "alta": "2003-10-30",
+        "vence": "2026-10-30",
+        "que_sirve": "complejo de departamentos con servicios (costa atlántica)",
+        "fuente": "whois.nic.ar",
+        "nota": "vence en 24 días; renovar es lo habitual"
+      },
+      {
+        "dominio": "caracolas.com",
+        "estado": "TOMADO",
+        "registrador": "GoDaddy (domaincontrol.com)",
+        "alta": "2003-06-25",
+        "vence": "2027-06-25",
+        "fuente": "RDAP de Verisign"
+      },
+      {
+        "dominio": "lascaracolas.com",
+        "estado": "TOMADO",
+        "que_sirve": "sitio de periodismo y podcast feminista (Soledad Jarquín)",
+        "fuente": "contenido servido por HTTP"
+      }
+    ],
+    "recomendado": "lascaracolasrosario.com.ar",
+    "motivo": "único disponible que contiene el nombre real del negocio + ciudad + TLD local"
+  },
+  "sitio_nuevo": {
+    "lo_aporta": "Lisandro, construido con otro motor; se recibe por URL",
+    "estado": "PENDIENTE",
+    "nota": "El pipeline de leads NO construye el sitio. Sin esa URL, la propuesta sale sin la sección «Tu sitio nuevo» y el gate de promesas (§10) no tiene contra qué cotejar."
+  },
+  "linktree": {
+    "url": "https://linktr.ee/lascaracolas_ar",
+    "titulo": "Las Caracolas Restaurant - Order Delivery - See Food on Instagram",
+    "bajada": "¡La casa favorita de un pescador, en el corazón de Rosario!",
+    "enlaces_propios": [
+      {
+        "rotulo": "Carta Rotisería LC 2 OCTUBRE.pdf",
+        "url": "https://drive.google.com/file/d/1k9XU3ftnIowlDCWc0RS72qAOjMddzhEU/view",
+        "tipo": "PDF en Google Drive"
+      },
+      {
+        "rotulo": "Catálogo FRESCOS/REBOZADOS OCTUBRE LC.pdf",
+        "url": "https://drive.google.com/file/d/1oLds6HQt8Z2vMCiPkulA_thO0VIUNO10/view",
+        "tipo": "PDF en Google Drive"
+      },
+      {
+        "rotulo": "NUESTRO WHATSAPP · Hace tu pedido o consulta",
+        "url": "https://wa.me/5493416378697",
+        "tipo": "WhatsApp Business"
+      },
+      {
+        "rotulo": "Sushi a Domicilio · PEDIDOS YA",
+        "url": "https://www.pedidosya.com.ar/restaurantes/rosario/las-caracolas-sushi-fe0e6153-d0f3-4720-95f2-ea69c36c73bb-menu",
+        "tipo": "PedidosYa"
+      },
+      {
+        "rotulo": "La Roti y frescos en Pedidos Ya",
+        "url": "https://www.pedidosya.com.ar/restaurantes/rosario/las-caracolas-1bde2c3f-3cb5-47dc-a3fc-718399d924a6-menu",
+        "tipo": "PedidosYa"
+      },
+      {
+        "rotulo": "¡Cómo llegar!",
+        "url": "https://goo.gl/maps/9EvYzcmyv2mSmsZ67",
+        "tipo": "Google Maps"
+      },
+      {
+        "rotulo": "Nuestro TikTok",
+        "url": "https://www.tiktok.com/@lascaracolas_ar",
+        "tipo": "TikTok"
+      },
+      {
+        "rotulo": "Facebook",
+        "url": "https://www.facebook.com/lascaracolas.ar",
+        "tipo": "Facebook"
+      },
+      {
+        "rotulo": "Instagram",
+        "url": "https://instagram.com/lascaracolas_ar",
+        "tipo": "Instagram"
+      }
+    ],
+    "enlaces_totales_en_la_pagina": "9 propios + publicidad de terceros de la plataforma",
+    "publicidad_de_terceros_visible": [
+      "Hulu",
+      "HelloFresh",
+      "ARMRA",
+      "Omnilux LED",
+      "Ritual",
+      "Factor",
+      "Curology",
+      "Acorns",
+      "Headspace",
+      "Equip Foods",
+      "FabFitFun",
+      "CLEARSTEM",
+      "Purple Carrot",
+      "Daily Harvest",
+      "Gobble",
+      "Babbel",
+      "Talkspace",
+      "Fabletics"
+    ],
+    "estado": "MEDIDO",
+    "nota": "Los enlaces de publicidad son de la plataforma Linktree, no del cliente. Se listan porque aparecen en la misma página que el menú."
+  },
+  "menu_pdf": {
+    "carta_rotiseria": {
+      "paginas": 30,
+      "bytes": 64807518,
+      "mb": 64.8,
+      "tipo": "PDF 1.4",
+      "capa_de_texto": true
+    },
+    "catalogo_frescos": {
+      "paginas": 7,
+      "bytes": 3613405,
+      "mb": 3.4,
+      "tipo": "PDF 1.4",
+      "capa_de_texto": true
+    },
+    "precios_ejemplo": [
+      "$34.900 kg",
+      "$50.900 kg",
+      "$59.000 kg",
+      "$69.900 kg",
+      "$149.900 kg"
+    ],
+    "estado": "MEDIDO",
+    "nota": "Medido con file y pdftotext sobre el archivo descargado de Google Drive. El nombre del archivo lleva el mes («2 OCTUBRE»), o sea que se reemplaza todos los meses."
+  },
+  "pedidosya": {
+    "tiendas": 2,
+    "estado": "NO VERIFICADO",
+    "nota": "Las dos URLs devolvieron 403 «tráfico inusual» desde este equipo, con curl y con Chrome. Que las dos tiendas existen se midió en el Linktree del cliente (ahí están los dos enlaces); lo que no se pudo leer es el contenido: menú, comisión ni puntuación."
+  },
+  "facebook": {
+    "url": "https://www.facebook.com/lascaracolas.ar/",
+    "seguidores": 694,
+    "categoria": "Pescadería",
+    "estado": "MEDIDO",
+    "nota": "Leído del og:description de la página. Un índice de búsqueda mostraba 1.516 me gusta para una página homónima; no se pudo confirmar cuál es la vigente."
+  },
+  "tiktok": {
+    "usuario": "@lascaracolas_ar",
+    "estado": "NO VERIFICADO",
+    "nota": "El enlace existe en su Linktree. El perfil devuelve una página que arma el contenido con JavaScript: seguidores y publicaciones no se pudieron leer sin sesión."
+  },
+  "no_medido": [
+    "Facturación, ticket promedio y margen: no se pueden medir desde afuera.",
+    "Comisión que cobra PedidosYa por pedido: no publicada en el material accesible.",
+    "Cuántos pedidos entran por WhatsApp o por PedidosYa: dato interno.",
+    "Seguidores reales frente a inactivos: Instagram sólo expone el total.",
+    "TikTok y PedidosYa: bloquearon la lectura automatizada (403 y render por JavaScript)."
+  ]
+}

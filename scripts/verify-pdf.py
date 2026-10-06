@@ -188,7 +188,8 @@ def main() -> int:
 
     # ---- Los datos verificados del cliente tienen que estar sostenidos en el documento.
     #      Salen de la config: los propios y los que el cliente declare en verificacionPDF.datos.
-    datos = [d for d in [meta.get("matricula"), cfg.get("costoMensual")] if d]
+    datos = [d for d in [(meta.get("habilitacion") or meta.get("matricula")),
+                         cfg.get("costoMensual")] if d]
     datos += list(verif.get("datos") or [])
     ausentes = [d for d in datos if d not in todo]
     print(f"  datos     : {len(datos) - len(ausentes)}/{len(datos)} sostenidos")

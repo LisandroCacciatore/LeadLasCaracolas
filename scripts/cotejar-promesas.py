@@ -164,11 +164,12 @@ def main() -> int:
             n = len(re.findall(r"<img", dom, re.I))
             return bool(n), f"{n} imágenes en el sitio publicado"
         if "habilitación" in t or "matrícula" in t:
-            mat = (cfg.get("meta") or {}).get("matricula") or ""
+            _m = cfg.get("meta") or {}
+            mat = _m.get("habilitacion") or _m.get("matricula") or ""
             num = re.search(r"\d{3,}", mat)
             return (num and num.group(0) in dom), \
-                (f"el número de matrícula {num.group(0)} aparece en el sitio" if num
-                 else "no hay matrícula en la config para cotejar")
+                (f"el número de habilitación {num.group(0)} aparece en el sitio" if num
+                 else "no hay habilitación ni matrícula en la config para cotejar")
         if "contraste" in t or "4,5:1" in t:
             return None, ("el contraste se mide sobre los colores computados: se verifica "
                           "con scripts/verificar-sitio.py sobre el sitio local")

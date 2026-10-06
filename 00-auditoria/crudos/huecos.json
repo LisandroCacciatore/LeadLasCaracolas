@@ -1,0 +1,30 @@
+{
+  "sushi": {
+    "status": 403,
+    "url_final": "https://www.pedidosya.com.ar/restaurantes/rosario/las-caracolas-sushi-fe0e6153-d0f3-4720-95f2-ea69c36c73bb-menu",
+    "texto": "Nuestros sistemas han detectado tráfico inusual por lo que te pedimos que completes la comprobación de seguridad para continuar."
+  },
+  "roti-frescos": {
+    "status": 403,
+    "url_final": "https://www.pedidosya.com.ar/restaurantes/rosario/las-caracolas-1bde2c3f-3cb5-47dc-a3fc-718399d924a6-menu",
+    "texto": "Nuestros sistemas han detectado tráfico inusual por lo que te pedimos que completes la comprobación de seguridad para continuar."
+  },
+  "ig_posts_visibles": [
+    "https://www.instagram.com/lascaracolas_ar/reel/DeIRXMoxLhC",
+    "https://www.instagram.com/lascaracolas_ar/reel/DeFsnYnRGok",
+    "https://www.instagram.com/lascaracolas_ar/reel/DeAwnEvxHAn",
+    "https://www.instagram.com/lascaracolas_ar/p/Dd-EekzRUOZ",
+    "https://www.instagram.com/lascaracolas_ar/reel/Dd7adtXRG0l",
+    "https://www.instagram.com/lascaracolas_ar/reel/Dd47RcDxL4g",
+    "https://www.instagram.com/lascaracolas_ar/p/DduuIcEkfjH",
+    "https://www.instagram.com/lascaracolas_ar/reel/DdsCjzExaue",
+    "https://www.instagram.com/lascaracolas_ar/reel/Ddpfxt1ReJh",
+    "https://www.instagram.com/lascaracolas_ar/reel/DdmxwGWRChv",
+    "https://www.instagram.com/lascaracolas_ar/reel/DdkGYdyxNoH",
+    "https://www.instagram.com/lascaracolas_ar/reel/Ddd_QM3xPof"
+  ],
+  "ig_posts_visibles_n": 12,
+  "ig_link_bio": [
+    "https://l.instagram.com/?u=https%3A%2F%2Flinktr.ee%2Flascaracolas_ar&e=AUDNyTWXDyXSFRyh2OSN44sUgPYCLrfYn-QTk22t09tgPZjhfQyakDYq0XRVF3E9xH2ZiB-Jhio-ZX2L0P4aJH0Xm9XJ4VbZq4W5-7FR0isiyUNXMc-K0Pjq_ynZpIgBDs6xC60gZ2_fb_oUaKK3Fw"
+  ]
+}

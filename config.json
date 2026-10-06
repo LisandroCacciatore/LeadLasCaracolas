@@ -1,11 +1,10 @@
 {
   "meta": {
     "nombre": "Las Caracolas",
-    "matricula": "[Matrícula o credencial, tal como figura en su documento]",
-    "profesion": "[Profesión · especialidad]",
+    "negocio": "[Qué es, en pocas palabras — «Nutrición · Rosario», «Pescadería y rotisería»]",
     "rubro": "Pescadería y rotisería · Rosario",
-    "fecha": "6 de octubre de 2026",
-    "validez": "5 de noviembre de 2026",
+    "fecha": "7 de octubre de 2026",
+    "validez": "6 de noviembre de 2026",
     "url": "sin sitio propio; su presencia es https://www.instagram.com/lascaracolas_ar/",
     "presenciaUrl": "https://www.instagram.com/lascaracolas_ar/",
     "presenciaEtiqueta": "https://www.instagram.com/lascaracolas_ar/"
